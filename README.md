@@ -1,3 +1,20 @@
+## NOTES
+- `php artisan serve` = run server
+- `composer.json` and `composer.lock` are like `package.json` and `package-lock.json`
+- the `require` section in `composer.json` are the libraries required to run the program
+- some libraries require "autoload"
+- `composer install` and `composer update`
+- packagist.org is the main composer repo. it aggregates public PHP packages installable with composer
+- to add new packages to the `require` run `composer require <whatever it says in packagist for that package>`
+- `vendor` directory is like `node_modules`
+- to see dependency tree of project run `composer show --tree`
+- `composer dump autoload` regenerates the list of all classes that needs to be included in the autoload. Does not download anything.
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
